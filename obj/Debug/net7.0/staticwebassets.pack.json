@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/hannalindholm/moment2MVC/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/hannalindholm/moment2MVC/wwwroot/css/main.css",
+      "PackagePath": "staticwebassets/css/main.css"
+    },
+    {
+      "Id": "/Users/hannalindholm/moment2MVC/wwwroot/images/coding640x426.jpg",
+      "PackagePath": "staticwebassets/images/coding640x426.jpg"
+    },
+    {
+      "Id": "/Users/hannalindholm/moment2MVC/wwwroot/images/header640x420.jpg",
+      "PackagePath": "staticwebassets/images/header640x420.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.moment2MVC.props",
+      "PackagePath": "build\\moment2MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.moment2MVC.props",
+      "PackagePath": "buildMultiTargeting\\moment2MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.moment2MVC.props",
+      "PackagePath": "buildTransitive\\moment2MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.moment2MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

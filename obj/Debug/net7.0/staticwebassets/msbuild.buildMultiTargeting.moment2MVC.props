@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/moment2MVC.props" />
+</Project>

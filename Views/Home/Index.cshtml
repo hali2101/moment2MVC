@@ -1,0 +1,66 @@
+@model List<Moment2MVC.Models.WorkoutModel>
+
+@{
+    ViewData["Title"] = "Startsidan";
+}
+
+<h1>Välkommen!</h1>
+<p>Denna enkla sida har med träning att göra! Här kan du lägga till träningspass med namn, längd, svårighetsgrad och om
+    det är avklarat eller inte.</p>
+<p>Under alla träningspass går det att se alla tillagda pass, medan det på denna sida bara visas de som är avklarade.
+</p>
+<p>Titta, klicka och lägga gärna till ett träningspass!</p>
+<br>
+<h2>Avklarade träningar</h2>
+<p>Dagens datum är: @ViewBag.todaysDate</p>
+<!--Lista över alla träningspass-->
+<div class="tableresp">
+    <table>
+        <tr>
+            <th>
+                Träningspassets namn
+            </th>
+            <th>
+                Svårighetsgrad
+            </th>
+            <th>
+                Passets längd
+            </th>
+            <th>
+                Avklarat
+            </th>
+        </tr>
+        @foreach (var workout in Model)
+        {
+            @if (workout.Completion == true)
+            {
+                <tr>
+                    <td>
+                        @workout.Workoutname
+                    </td>
+                    <td>
+                        @workout.Difficulty
+                    </td>
+                    <td>
+                        @workout.Duration
+                    </td>
+                    <td>
+                        @if (workout.Completion)
+                        {
+                            string yes = "Ja";
+                            @yes
+                            ;
+                        }
+                        else
+                        {
+                            string no = "Nej";
+                            @no
+                            ;
+                        }
+                    </td>
+                </tr>
+            }
+
+        }
+    </table>
+</div>

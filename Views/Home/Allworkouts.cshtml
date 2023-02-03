@@ -1,0 +1,55 @@
+@model List<Moment2MVC.Models.WorkoutModel>
+
+@{
+    ViewData["Title"] = "Alla träningspass";
+}
+
+<h1>Alla träningspass</h1>
+
+<!--Lista över alla träningspass-->
+<div class="tableresp">
+    <table>
+        <tr>
+            <th>
+                Träningspassets namn
+            </th>
+            <th>
+                Svårighetsgrad
+            </th>
+            <th>
+                Passets längd
+            </th>
+            <th>
+                Avklarat
+            </th>
+        </tr>
+        @foreach (var workout in Model)
+        {
+            <tr>
+                <td>
+                    @workout.Workoutname
+                </td>
+                <td>
+                    @workout.Difficulty
+                </td>
+                <td>
+                    @workout.Duration
+                </td>
+                <td>
+                    @if (workout.Completion)
+                    {
+                        string yes = "Ja";
+                        @yes
+                        ;
+                    }
+                    else
+                    {
+                        string no = "Nej";
+                        @no
+                        ;
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+</div>

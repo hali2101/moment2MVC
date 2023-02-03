@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moment 2 MVC | @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerpicture">
+            <img src="~/images/header640x420.jpg" alt="woman working out" width="340" height="220">
+        </div>
+    </header>
+    <!--Naviering-->
+    <partial name="_Navigation" />
+    <div class="maingrid">
+        <main class="main">
+            <article>
+                @RenderBody()
+            </article>
+        </main>
+    </div>
+    <!--Footer-->
+    <footer>
+        <p>Av Hanna Lindholm | Kontakta mig via e-post: hali2101@student.miun.se</p>
+    </footer>
+
+</body>
+
+</html>

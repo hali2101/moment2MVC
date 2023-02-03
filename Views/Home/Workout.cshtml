@@ -1,0 +1,35 @@
+@model Moment2MVC.Models.WorkoutModel
+
+@{
+    ViewData["Title"] = "Träningspass";
+}
+
+<h1>Träningspass</h1>
+
+
+<div class="form">
+    <h2>Lägg till träningspass</h2>
+    <!--Formulär för att lägga till kurs-->
+    <form method="post">
+        <div asp-validation-summary="ModelOnly"></div>
+        <label asp-for="Workoutname"></label>
+        <input asp-for="Workoutname" placeholder="Max 15 tecken">
+        <span class="errormsg" asp-validation-for="Workoutname"></span>
+        <br>
+        <label asp-for="Difficulty"></label>
+        @Html.DropDownList("difficulty", ViewBag.Difficulty, "-- Välj här--", new {@class =
+        "form-control"})
+        <span class="errormsg" asp-validation-for="Difficulty"></span>
+        <br>
+        <label asp-for="Duration"></label>
+        <input asp-for="Duration" placeholder="Ange i minuter">
+        <span class="errormsg" asp-validation-for="Duration"></span>
+        <br>
+        <div>
+            <input asp-for="Completion" type="checkbox">
+            <label asp-for="Completion">Passet avklarat</label>
+        </div>
+        <br>
+        <input class="submit-btn" type="submit" value="Lägg till träningspass">
+    </form>
+</div>

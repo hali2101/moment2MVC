@@ -1,0 +1,68 @@
+[
+  {
+    "Workoutname": "Slayer I",
+    "Difficulty": "Lätt",
+    "Duration": 35,
+    "Completion": true
+  },
+  {
+    "Workoutname": "Slayer II",
+    "Difficulty": "Medel",
+    "Duration": 55,
+    "Completion": false
+  },
+  {
+    "Workoutname": "Slayer III",
+    "Difficulty": "Svår",
+    "Duration": 75,
+    "Completion": false
+  },
+  {
+    "Workoutname": "HIIT III",
+    "Difficulty": "Hardcore",
+    "Duration": 180,
+    "Completion": false
+  },
+  {
+    "Workoutname": "HIIT II",
+    "Difficulty": "Medium",
+    "Duration": 65,
+    "Completion": true
+  },
+  {
+    "Workoutname": "MURPH",
+    "Difficulty": "Hardcore",
+    "Duration": 75,
+    "Completion": true
+  },
+  {
+    "Workoutname": "Yoga",
+    "Difficulty": "Easypeasy",
+    "Duration": 25,
+    "Completion": true
+  },
+  {
+    "Workoutname": "CINDY",
+    "Difficulty": "Medium",
+    "Duration": 45,
+    "Completion": false
+  },
+  {
+    "Workoutname": "MARY",
+    "Difficulty": "Neardeathexperience",
+    "Duration": 90,
+    "Completion": true
+  },
+  {
+    "Workoutname": "Testar",
+    "Difficulty": "Hardcore",
+    "Duration": 60,
+    "Completion": false
+  },
+  {
+    "Workoutname": "Slayer I",
+    "Difficulty": "Medium",
+    "Duration": 45,
+    "Completion": false
+  }
+]

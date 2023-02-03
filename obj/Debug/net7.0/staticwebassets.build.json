@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "02sf2fV0dtEn/RXdtMuUvPDyjiT/+QKUqvKYWppS+sg=",
+  "Source": "moment2MVC",
+  "BasePath": "_content/moment2MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "moment2MVC/wwwroot",
+      "Source": "moment2MVC",
+      "ContentRoot": "/Users/hannalindholm/moment2MVC/wwwroot/",
+      "BasePath": "_content/moment2MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/hannalindholm/moment2MVC/wwwroot/.DS_Store",
+      "SourceId": "moment2MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hannalindholm/moment2MVC/wwwroot/",
+      "BasePath": "_content/moment2MVC",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/hannalindholm/moment2MVC/wwwroot/css/main.css",
+      "SourceId": "moment2MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hannalindholm/moment2MVC/wwwroot/",
+      "BasePath": "_content/moment2MVC",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/main.css"
+    },
+    {
+      "Identity": "/Users/hannalindholm/moment2MVC/wwwroot/images/coding640x426.jpg",
+      "SourceId": "moment2MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hannalindholm/moment2MVC/wwwroot/",
+      "BasePath": "_content/moment2MVC",
+      "RelativePath": "images/coding640x426.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/coding640x426.jpg"
+    },
+    {
+      "Identity": "/Users/hannalindholm/moment2MVC/wwwroot/images/header640x420.jpg",
+      "SourceId": "moment2MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hannalindholm/moment2MVC/wwwroot/",
+      "BasePath": "_content/moment2MVC",
+      "RelativePath": "images/header640x420.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/header640x420.jpg"
+    }
+  ]
+}
